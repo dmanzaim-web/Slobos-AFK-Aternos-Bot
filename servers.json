@@ -32,3 +32,67 @@
    ",
 "port": 25565,
 "botUsername": "اسم البوت"
+{
+  "servers": [
+    {
+      "id": "server-1",
+      "name": "السيرفر الأول",
+      "host": "first.aternos.me",
+      "port": 25565,
+      "version": "",
+      "botUsername": "BotOne",
+      "botPassword": "",
+      "authType": "offline",
+      "autoStart": true,
+      "autoReconnect": true,
+      "reconnectDelay": 5000,
+      "maxReconnectDelay": 120000,
+      "autoAuth": {
+        "enabled": false,
+        "password": ""
+      },
+      "antiAfk": {
+        "enabled": true,
+        "sneak": true,
+        "lookAround": true,
+        "randomJump": true
+      },
+      "chatMessages": {
+        "enabled": false,
+        "repeat": false,
+        "repeatDelay": 120,
+        "messages": []
+      }
+    },
+    {
+      "id": "server-2",
+      "name": "السيرفر الثاني",
+      "host": "second.aternos.me",
+      "port": 25565,
+      "version": "",
+      "botUsername": "BotTwo",
+      "botPassword": "",
+      "authType": "offline",
+      "autoStart": false,
+      "autoReconnect": true,
+      "reconnectDelay": 5000,
+      "maxReconnectDelay": 120000,
+      "autoAuth": {
+        "enabled": false,
+        "password": ""
+      },
+      "antiAfk": {
+        "enabled": true,
+        "sneak": true,
+        "lookAround": true,
+        "randomJump": true
+      },
+      "chatMessages": {
+        "enabled": false,
+        "repeat": false,
+        "repeatDelay": 120,
+        "messages": []
+      }
+    }
+  ]
+}
